@@ -7,7 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class _02_Modificar {
+public class _02_UpdatePersona {
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("prueba");
         EntityManager em = emf.createEntityManager();

@@ -8,9 +8,8 @@
     <persistence-unit name="prueba" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
-        <!-- Declara tus entidades -->
+        <!-- Declara entidades -->
         <class>es.upgrade.entidad.Persona</class>
-        <!-- Agrega más clases de entidad si las tienes -->
 
         <properties>
             <!-- Configuración JDBC para H2 -->
